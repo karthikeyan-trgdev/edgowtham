@@ -136,6 +136,7 @@
     jehangir: {
       name: "Jehangir's",
       logo: "assets/verticals/jehangir.png",
+      url: "https://www.jehangirsrestaurant.com/",
       tagline: "Indian Cuisine",
       desc: "Jehangir's celebrates the richness of Indian cuisine, pairing authentic spices and traditional techniques with a refined dining experience.",
       tags: [tag("Authentic Spices", "flame"), tag("Traditional Techniques", "users"), tag("Refined Dining", "star"), tag("Signature Recipes", "star")]
@@ -150,6 +151,7 @@
     kuppana: {
       name: "Junior Kuppanna",
       logo: "assets/verticals/kuppana.png",
+      url: "http://kuppanna.com/",
       tagline: "Heritage Restaurant Brand",
       desc: "Junior Kuppanna carries forward a cherished culinary legacy, serving traditional recipes with the warmth of home-style hospitality.",
       tags: [tag("Heritage Recipes", "star"), tag("Home-Style Cooking", "heart"), tag("Family Legacy", "users"), tag("Warm Hospitality", "heart")]
@@ -157,6 +159,7 @@
     lof: {
       name: "Lab of Future",
       logo: "assets/verticals/lof.png",
+      url: "https://www.laboffuture.com/",
       tagline: "Be Curious — STEM & Innovation Learning",
       desc: "Lab of Future ignites curiosity through hands-on STEM education, empowering young innovators to explore, build, and dream beyond limits.",
       tags: [tag("Hands-On STEM", "book"), tag("Innovation Mindset", "sparkle"), tag("Future Skills", "trending"), tag("Curiosity-Led Learning", "book")]
@@ -171,6 +174,7 @@
   var modalDesc = document.getElementById("vertModalDesc");
   var modalTags = document.getElementById("vertModalTags");
   var modalClose = document.getElementById("vertModalClose");
+  var modalBtn = document.getElementById("vertModalBtn");
 
   function openModal(id) {
     var data = VERTICALS[id];
@@ -183,6 +187,12 @@
     modalTags.innerHTML = data.tags.map(function (t) {
       return '<span class="vert-modal-tag">' + icon(t.icon) + "<span>" + t.label + "</span></span>";
     }).join("");
+    if (modalBtn) {
+      var url = data.url || "#";
+      modalBtn.onclick = function () {
+        if (url && url !== "#") window.open(url, "_blank", "noopener");
+      };
+    }
     overlay.classList.add("active");
     document.body.style.overflow = "hidden";
     if (window.lenis) window.lenis.stop();
