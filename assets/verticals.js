@@ -38,6 +38,7 @@
     tawouk: {
       name: "Al Tawouk",
       logo: "assets/verticals/tawouk.png",
+      url: "https://malakaltawouk.com/",
       tagline: "Grilled Chicken & Middle Eastern Flavors",
       desc: "Al Tawouk serves authentic Middle Eastern grilled specialties, bringing bold flavors and time-honored recipes to every plate.",
       tags: [tag("Authentic Recipes", "flame"), tag("Fresh Ingredients", "leaf"), tag("Fast Casual", "clock"), tag("Bold Flavors", "flame")]
@@ -59,6 +60,7 @@
     trglobal: {
       name: "Toprock Global",
       logo: "assets/verticals/trgg.png",
+      url: "https://toprockglobal.com/",
       tagline: "Global Trading & Investments",
       desc: "Toprock Global drives cross-border trade and investment, connecting markets and building strategic partnerships that fuel sustainable growth.",
       tags: [tag("Global Reach", "globe"), tag("Strategic Partnerships", "trending"), tag("Market Expertise", "trending"), tag("Trusted Network", "star")]
@@ -66,6 +68,7 @@
     tri: {
       name: "Toprock Interiors",
       logo: "assets/verticals/tri.png",
+      url: "https://www.toprockinteriors.com/",
       tagline: "Interior Fit-Out & Design, Since 2004",
       desc: "Toprock Interiors LLC has been shaping refined spaces since 2004, blending functional design with meticulous execution for residential and commercial interiors.",
       tags: [tag("Since 2004", "star"), tag("Bespoke Design", "sparkle"), tag("Quality Finishes", "shield"), tag("On-Time Delivery", "clock")]
@@ -80,6 +83,7 @@
     trk: {
       name: "Toprock Kitchen",
       logo: "assets/verticals/trk.png",
+      url: "https://toprockkitchen.com/",
       tagline: "Commercial Kitchen Equipment",
       desc: "Toprock Kitchen Equipment outfits professional kitchens with reliable, high-performance equipment built for demanding hospitality environments.",
       tags: [tag("Durable Equipment", "shield"), tag("Hygiene Standards", "shield"), tag("Expert Installation", "users"), tag("After-Sales Support", "clock")]
@@ -101,6 +105,7 @@
     vb: {
       name: "VB World",
       logo: "assets/verticals/vb.png",
+      url: "https://www.vbworldrestaurant.com/",
       tagline: "Global Cuisine",
       desc: "VB World brings the flavors of the world together, crafting a global dining experience rooted in quality ingredients and culinary passion.",
       tags: [tag("Global Menu", "globe"), tag("Culinary Passion", "flame"), tag("Quality Ingredients", "leaf"), tag("Warm Hospitality", "heart")]
@@ -115,6 +120,7 @@
     cmg: {
       name: "Chandramari Group",
       logo: "assets/verticals/cmg.png",
+      url: "https://chandramarigroup.com/",
       tagline: "Diversified Business Group",
       desc: "Chandramari Group is a diversified business group nurturing ventures across education, hospitality, and community-focused initiatives.",
       tags: [tag("Diversified Portfolio", "trending"), tag("Community Focus", "heart"), tag("Long-Term Vision", "trending"), tag("Trusted Legacy", "star")]
@@ -122,6 +128,7 @@
     cmis: {
       name: "CMIS",
       logo: "assets/verticals/cmis.png",
+      url: "https://cmis.ac.in/",
       tagline: "Chandramari International School",
       desc: "Chandramari International School nurtures young minds with a holistic, globally-minded curriculum that balances academics, values, and creativity.",
       tags: [tag("Holistic Learning", "book"), tag("Global Curriculum", "globe"), tag("Values-Driven", "heart"), tag("Creative Growth", "sparkle")]
